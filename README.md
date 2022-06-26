@@ -1,15 +1,15 @@
-# ASUS X515JA Hackintosh i5 10th gen
-<img src="https://github.com/Levonhard/X515JA-Hackintosh/blob/main/screenshot-monterey.png">
+# ASUS Vivobook X515JA Hackintosh i3 10th gen
+<img src="https://github.com/Bhavinjain260/Asus_Vivobook15_X515JA_Opencore/blob/main/Screenshot%202022-06-26%20at%2010.40.37%20AM.png">
 
-## ASUS X515JA-EJ1792W SPECS
+## ASUS X515JA-BR381T SPECS
 
-| COMPONENTS | MODEL                                 |
-|------------|---------------------------------------|
-| CPU        | Intel Core i5 1035G1                  |
-| RAM        | 8 GiB@2667MHz DDR4                    |
-| iGPU       | Intel UHD Graphics 920                |
-| WiFi       | Intel Wireless-AC 9461                |
-| Storage    | NVME 256 GiB                          |
+| COMPONENTS | MODEL                                   |
+|------------|-----------------------------------------|
+| CPU        | Intel® Core™ i3-1005G1                  | 
+| RAM        | 12 GB 3200 MHz DDR4                     |
+| iGPU       | Intel® UHD Graphics.                    |
+| WiFi       | Intel Wireless-AC 9461                  |
+| Storage    | SATA 500 GB [MacOS] / 256 NVME [Windows]|
 
 ### WORK
 - [x] Intel integrated graphics
@@ -24,5 +24,5 @@
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
 - [x] Sleep
 
-### DOES NOT WOR
+### DOES NOT WORk
 - HDMI
