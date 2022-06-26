@@ -24,5 +24,5 @@
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
 - [x] Sleep
 
-### DOES NOT WORk
-- HDMI
+### DOES NOT WORK
+- [ ] HDMI
