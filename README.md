@@ -23,7 +23,7 @@
 - [x] Headset Combo Jack
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
 - [x] Sleep
-- [x] DRM also works (Sort off)
+- [x] DRM also works (Sort of)
 
 ### DOES NOT WORK
 - [ ] HDMI
