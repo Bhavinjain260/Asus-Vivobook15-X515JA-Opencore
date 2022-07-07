@@ -19,6 +19,7 @@
 - [x] Battery percentage (Charging stops at 61)
 - [x] TouchPad w/ Advanced Gestures
 - [x] Intel WiFi/ Bluetooth
+- [x] SD Card (Haven't tested it)
 - [x] Speakers
 - [x] Headset Combo Jack
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
