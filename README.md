@@ -16,7 +16,7 @@
 - [x] USB
 - [x] Webcam
 - [x] Brightness control
-- [x] Battery percentage
+- [x] Battery percentage (Charging stops at 61)
 - [x] TouchPad w/ Advanced Gestures
 - [x] Intel WiFi/ Bluetooth
 - [x] Speakers
