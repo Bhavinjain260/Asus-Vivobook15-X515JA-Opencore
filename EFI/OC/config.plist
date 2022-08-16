@@ -349,27 +349,6 @@
 				<key>layout-id</key>
 				<integer>66</integer>
 			</dict>
-			<key>#PciRoot(0x0)/Pci(0x1F,0x0)</key>
-			<dict>
-				<key>ec-device</key>
-				<string>generic</string>
-				<key>fan-count</key>
-				<integer>1</integer>
-				<key>fan0-addr</key>
-				<integer>201</integer>
-				<key>fan0-big</key>
-				<integer>0</integer>
-				<key>fan0-div</key>
-				<integer>1</integer>
-				<key>fan0-divident</key>
-				<integer>4312500</integer>
-				<key>fan0-inverse</key>
-				<integer>0</integer>
-				<key>fan0-mul</key>
-				<integer>2</integer>
-				<key>fan0-size</key>
-				<integer>2</integer>
-			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -972,6 +951,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelBTPatcher.kext</string>
+				<key>Comment</key>
+				<string>IntelBTPatcher.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBTPatcher</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1544,7 +1541,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 TSC_sync_margin=0 igfxfw=2 -noDC9 dc6config=0 -lilubetaall</string>
+				<string>-v keepsyms=1 debug=0x100 igfxfw=2 -noDC9 dc6config=0 -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
