@@ -348,6 +348,8 @@
 			<dict>
 				<key>layout-id</key>
 				<integer>66</integer>
+				<key>alctcsel</key>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
