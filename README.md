@@ -1,5 +1,5 @@
 # ASUS Vivobook X515JA Hackintosh i3 10th gen
-<img src="https://github.com/Bhavinjain260/Asus-Vivobook15-X515JA-Opencore/blob/main/About%20this%20mac.png">
+<img src="https://github.com/Bhavinjain260/Asus-Vivobook15-X515JA-Opencoree/blob/main/Screenshot%202022-11-05%20at%209.07.41%20PM.png?raw=true">
 
 ## ASUS X515JA-BR381T SPECS
 
@@ -19,7 +19,7 @@
 - [x] Battery percentage (Charging stops at 61)
 - [x] TouchPad w/ Advanced Gestures
 - [x] Intel WiFi/ Bluetooth
-- [x] SD Card (Haven't tested it)
+- [x] SD Card
 - [x] Speakers
 - [x] Headset Combo Jack
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
