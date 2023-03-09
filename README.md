@@ -1,5 +1,5 @@
 # ASUS Vivobook X515JA Hackintosh i3 10th gen
-<img src="https://github.com/Bhavinjain260/Asus-Vivobook15-X515JA-Opencoree/blob/main/Screenshot%202022-11-05%20at%209.07.41%20PM.png?raw=true">
+<img src="https://raw.githubusercontent.com/Bhavinjain260/Asus-Vivobook15-X515JA-Opencore/main/About%20this%20mac.png">
 
 ## ASUS X515JA-BR381T SPECS
 
