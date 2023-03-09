@@ -24,14 +24,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -77,6 +69,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT_SBUS-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -118,66 +118,6 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>Replace one byte sequence with another</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>ESIzRA==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>RDMiEQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string>\_SB.PCI0.LPCB.HPET</string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>HPET _CRS to XCRS</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>X0NSUw==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WENSUw==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
 				<string>Change _OSI to XOSI</string>
 				<key>Count</key>
 				<integer>0</integer>
@@ -193,6 +133,96 @@
 				<data></data>
 				<key>Replace</key>
 				<data>WE9TSQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>Fix _Q71</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>QVRLRC5JQU5FICgweDVCKQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>QVRLRC5JQU5FICgweDVDKQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>R1BSVwI=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFBSVwI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string>\_SB.PCI0.I2C1.ETPD</string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>Patch _STA method</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>X1NUQQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFNUQQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -323,12 +353,6 @@
 				<data>U4oAAg==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>model</key>
 				<string>Intel(R) Iris Plus G1 Graphics</string>
 				<key>force-online</key>
@@ -343,6 +367,16 @@
 				<data>AQAAAA==</data>
 				<key>enable-backlight-registers-fix</key>
 				<data>AQAAAA==</data>
+				<key>AAPL, GfxYTile</key>
+				<data>AQAAAA==</data>
+				<key>AAPL, Gfx324</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
@@ -350,6 +384,8 @@
 				<integer>66</integer>
 				<key>alctcsel</key>
 				<data>AQAAAA==</data>
+				<key>alc-delay</key>
+				<integer>2000</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -370,24 +406,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>RTCMemoryFixup.kext</string>
-				<key>Comment</key>
-				<string>RTCMemoryFixup.kext</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RTCMemoryFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -777,24 +795,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
 				<string>VoodooI2C.kext</string>
@@ -911,7 +911,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
-				<string>21.99.99</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -932,24 +932,6 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AirportItlwm-v.kext</string>
-				<key>Comment</key>
-				<string>AirportItlwm-v.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportItlwm</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>22.00.00</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1399,6 +1381,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<false/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -1511,6 +1495,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>OpenShell.efi</string>
 				<key>Path</key>
@@ -1543,7 +1529,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 igfxfw=2 -noDC9 dc6config=0 -lilubetaall</string>
+				<string>keepsyms=1 igfxfw=2 -noDC9 dc6config=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1671,6 +1657,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMax</key>
@@ -1703,7 +1695,7 @@
 			<key>PlayChime</key>
 			<string>Auto</string>
 			<key>ResetTrafficClass</key>
-			<false/>
+			<true/>
 			<key>SetupDelay</key>
 			<integer>3000</integer>
 		</dict>
@@ -1758,6 +1750,18 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>ResetNvramEntry.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1880,6 +1884,8 @@
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
+			<false/>
+			<key>ResizeUsePciRbIo</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
