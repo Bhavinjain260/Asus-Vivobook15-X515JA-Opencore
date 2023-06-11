@@ -1,4 +1,9 @@
 # ASUS Vivobook X515JA Hackintosh i3 10th gen
+
+This EFI can be used to install MacOS Sonoma.
+
+Download [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases) to use the WiFi.
+
 <img src="https://raw.githubusercontent.com/Bhavinjain260/Asus-Vivobook15-X515JA-Opencore/main/About%20this%20mac.png">
 
 ## ASUS X515JA-BR381T SPECS
